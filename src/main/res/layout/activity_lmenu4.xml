@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="6dp"
+        android:text="Lunch"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/zuppa" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="84dp"
+        app:srcCompat="@drawable/cookie" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="411dp"
+        android:layout_height="151dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/chips" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="399dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        android:text="Zuppa - Soup of the Day --               Cup -> $2.95    Bowl -> 4.95"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="401dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="7dp"
+        android:text="Chips -- $1.50"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="408dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="25dp"
+        android:text="Cookie -- $1.00"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextB4"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="10dp"
+        android:text=" N " />
+    <Button
+        android:id="@+id/prevB4"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" P " />
+
+</RelativeLayout>

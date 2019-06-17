@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="6dp"
+        android:text="Breakfast"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="409dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-409dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="39dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:text="Danish --  $2.75"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="401dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="70dp"
+        android:text="Bagels --  $1.50"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/prevB1"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="P " />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="409dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/danish" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="411dp"
+        android:layout_height="198dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="156dp"
+        app:srcCompat="@drawable/bagels" />
+
+
+</RelativeLayout>
